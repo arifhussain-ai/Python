@@ -1,0 +1,419 @@
+﻿Student Name,Gender,Parent Education,Study Hours,Math Score,Reading Score,Writing Score
+Student_1,Female,Master,18,80,99,52
+Student_2,Male,High School,8,62,58,60
+Student_3,Female,Bachelor,14,78,82,80
+Student_4,Male,High School,5,54,50,48
+Student_5,Female,Master,22,98,95,99
+Student_6,Male,Bachelor,11,25,68,52
+Student_7,Female,High School,9,65,70,66
+Student_8,Male,Master,16,88,84,85
+Student_9,Female,Bachelor,13,75,77,79
+Student_10,Male,High School,6,58,55,52
+Student_11,Female,Master,20,12,92,30
+Student_12,Male,Bachelor,10,69,65,67
+Student_13,Female,High School,7,60,62,59
+Student_14,Male,Master,17,90,88,91
+Student_15,Female,Bachelor,15,82,85,84
+Student_16,Female,Master,20,87.4,87,85
+Student_17,Female,High School,2,58.4,54,54
+Student_18,Female,Bachelor,9,71.2,78,84
+Student_19,Female,Bachelor,7,57,59,54
+Student_20,Female,High School,17,90.6,99,92
+Student_21,Male,Master,12,65.8,74,66
+Student_22,Male,Bachelor,11,63.2,60,72
+Student_23,Female,Master,16,77.8,90,79
+Student_24,Male,Bachelor,24,72.4,77,74
+Student_25,Female,Bachelor,19,58.8,61,53
+Student_26,Male,Bachelor,17,93,92,87
+Student_27,Female,Bachelor,5,66,67,68
+Student_28,Female,High School,4,52.6,60,57
+Student_29,Male,Master,21,85.6,82,86
+Student_30,Female,High School,22,74,89,82
+Student_31,Female,High School,6,88,79.4,83
+Student_32,Female,Master,15,51.6,66.4,52
+Student_33,Female,High School,20,63.2,71.2,77
+Student_34,Male,Bachelor,21,62.6,62,61
+Student_35,Female,High School,14,75.6,98.6,100
+Student_36,Female,High School,2,70.6,58.8,76
+Student_37,Female,Master,2,70.8,64.2,62
+Student_38,Male,Bachelor,2,78.8,81.8,88
+Student_39,Female,High School,5,94.2,74.4,82
+Student_40,Female,Master,16,84.2,55.8,56
+Student_41,Female,Master,9,77.6,99,88
+Student_42,Female,Master,19,62,63,67
+Student_43,Female,Master,18,51.2,52.6,61
+Student_44,Female,High School,13,86.8,85.6,84
+Student_45,Male,High School,25,86.6,67,90
+Student_46,Female,Bachelor,7,54.8,94,74.4
+Student_47,Female,Master,25,84,58.6,68.4
+Student_48,Female,Bachelor,7,78,66.2,70.2
+Student_49,Male,Bachelor,22,82.8,60.6,66
+Student_50,Female,Bachelor,9,74.2,67.6,95.6
+Student_51,Male,High School,14,47.6,77.6,61.8
+Student_52,Male,Master,5,58.6,70.8,66.2
+Student_53,Male,Master,7,48.6,82.8,79.8
+Student_54,Male,Master,18,49,90.2,75.4
+Student_55,Female,Master,6,76.8,76.2,58.8
+Student_56,Male,Master,18,73.2,78.6,98
+Student_57,Female,Bachelor,16,83.2,62,62
+Student_58,Male,High School,9,81.4,53.2,52.6
+Student_59,Female,Bachelor,17,70.4,84.8,80.6
+Student_60,Female,Master,13,91,91.6,66
+Student_61,Female,Master,9,59.6,53.8,89
+Student_62,Male,Master,14,94,81,58.6
+Student_63,Female,High School,25,63.6,72,70.2
+Student_64,Male,High School,8,92.6,83.8,56.6
+Student_65,Male,High School,16,60.2,70.2,65.6
+Student_66,Female,High School,20,66.2,51.6,81.6
+Student_67,Male,Master,25,65,63.6,72.8
+Student_68,Male,High School,13,60.6,48.6,83.8
+Student_69,Male,Bachelor,18,84.4,50,94.2
+Student_70,Male,High School,23,67.8,71.8,77.2
+Student_71,Female,High School,7,86.4,65.2,74.6
+Student_72,Female,High School,5,73.8,91.2,65
+Student_73,Male,High School,7,64.2,80.4,51.2
+Student_74,Female,High School,16,84.6,73.4,87.8
+Student_75,Female,Master,15,76.4,86,91.6
+Student_76,Male,High School,4,69.2,52.6,50.8
+Student_77,Male,Bachelor,9,77.2,89,86
+Student_78,Male,Bachelor,2,92,62.6,71
+Student_79,Female,Master,24,55.4,89.6,84.8
+Student_80,Male,Bachelor,20,76.8,66.2,69.2
+Student_81,Male,Master,19,80,62.2,48.6
+Student_82,Female,Master,25,100,71,65.6
+Student_83,Female,Bachelor,23,64.4,66.6,52.6
+Student_84,Female,Master,20,77.4,91.4,49
+Student_85,Female,Master,23,88.4,70.8,75.8
+Student_86,Female,Bachelor,17,53.6,83.4,60.2
+Student_87,Male,Master,2,57,80.8,90.2
+Student_88,Female,High School,16,59.6,68.2,78.4
+Student_89,Female,High School,10,72.8,92.6,68.4
+Student_90,Male,Master,12,85,81.4,91
+Student_91,Male,Bachelor,6,56.2,76.2,51.6
+Student_92,Female,Master,10,67.2,75.2,91
+Student_93,Male,Master,13,49.6,98,65.6
+Student_94,Male,Bachelor,17,97.2,51.4,94.6
+Student_95,Male,High School,20,80,69.8,69.2
+Student_96,Male,High School,7,87.2,84,63.2
+Student_97,Male,Bachelor,22,98,100,68
+Student_98,Male,Bachelor,9,94.4,68.4,69.6
+Student_99,Male,Bachelor,8,93,84.4,89.4
+Student_100,Male,Master,17,93.4,81.4,71.8
+Student_101,Female,Bachelor,25,76.6,48.6,88.4
+Student_102,Female,Master,13,57.6,63,77.8
+Student_103,Female,Master,6,78.8,55.6,69.2
+Student_104,Male,Master,2,63,72.8,93.6
+Student_105,Female,Master,15,72.6,84,80.4
+Student_106,Female,Bachelor,8,63.8,59.2,80.2
+Student_107,Female,Master,25,67,72.2,74.2
+Student_108,Male,High School,3,72.4,50.6,93
+Student_109,Male,Bachelor,23,78.6,96.2,47.4
+Student_110,Male,Bachelor,23,85,75,72.8
+Student_111,Female,Master,4,61.6,93.2,80
+Student_112,Female,Master,8,86.6,92,100
+Student_113,Male,High School,6,61.2,99.4,73.4
+Student_114,Female,High School,4,61.4,98,82.4
+Student_115,Female,High School,10,82.6,88.4,77.4
+Student_116,Female,High School,12,98,83.6,46.6
+Student_117,Female,High School,8,75.4,64.6,63
+Student_118,Female,Master,5,61.8,78.8,55.6
+Student_119,Female,Bachelor,24,56.6,65,72.8
+Student_120,Male,High School,19,76,68.6,85
+Student_121,Female,Master,17,68.4,55.8,59.2
+Student_122,Female,Bachelor,25,95,75,70.2
+Student_123,Male,Master,20,52.4,75.4,52.6
+Student_124,Male,Bachelor,19,94.4,76.6,94.2
+Student_125,Male,High School,16,87.4,82,74
+Student_126,Male,High School,4,56.2,67.6,94.2
+Student_127,Male,Master,11,67.4,85.6,89
+Student_128,Female,High School,3,56.8,57.2,94.4
+Student_129,Male,Master,14,57.2,54.4,95
+Student_130,Male,High School,11,63,76.6,92.4
+Student_131,Male,High School,3,66.6,100,86.6
+Student_132,Male,Master,2,62.4,76.4,62.6
+Student_133,Male,Master,25,65,60.8,73.8
+Student_134,Female,High School,10,92.2,53.6,65
+Student_135,Female,Master,14,77.2,82,65.6
+Student_136,Female,High School,23,83.6,74.4,50.8
+Student_137,Male,Bachelor,16,98,100,74
+Student_138,Female,Master,19,86,44.4,71.4
+Student_139,Male,Master,12,80.2,97.4,78.6
+Student_140,Male,Bachelor,17,75.8,89.4,79
+Student_141,Female,Bachelor,10,55.2,54.2,70.6
+Student_142,Female,Bachelor,25,71.8,67.4,89.6
+Student_143,Female,Bachelor,16,49.4,53.8,55.2
+Student_144,Male,Bachelor,24,82.2,65.2,55.4
+Student_145,Female,Master,24,69.8,55,74.6
+Student_146,Female,Master,21,52.4,73.6,100
+Student_147,Male,High School,7,61.6,69.4,80.4
+Student_148,Female,Bachelor,17,100,61,56.8
+Student_149,Male,Master,7,62,99.2,55.6
+Student_150,Male,Bachelor,4,81.2,70.2,82
+Student_151,Male,Bachelor,14,82.4,88.6,73.4
+Student_152,Female,Bachelor,21,73.8,96,100
+Student_153,Female,Master,20,85.2,88,45.4
+Student_154,Male,Bachelor,7,74.6,72.2,92.4
+Student_155,Male,Bachelor,23,84.6,79.8,94.4
+Student_156,Male,Bachelor,17,67,61.2,57.2
+Student_157,Female,Master,16,96,71.8,69.4
+Student_158,Male,Master,9,72.8,57.4,50.8
+Student_159,Male,Master,6,92.2,76.2,62.2
+Student_160,Male,Master,3,99.2,68.8,58
+Student_161,Male,Master,8,85.8,44.4,75.6
+Student_162,Male,Master,8,52.6,55.6,72.4
+Student_163,Female,Bachelor,15,75.6,94,58
+Student_164,Male,Master,16,67.6,57,96.2
+Student_165,Male,High School,25,60.2,84.2,75.2
+Student_166,Female,Bachelor,15,70.2,82.4,89.6
+Student_167,Male,Master,15,89.8,69.8,98
+Student_168,Female,High School,9,93,80.2,91
+Student_169,Male,Master,3,59.6,69.6,75.2
+Student_170,Male,High School,7,85.4,85.6,75.8
+Student_171,Male,Master,18,80.6,60,64.2
+Student_172,Female,Bachelor,16,85.8,100,68.8
+Student_173,Male,High School,23,71.2,80.8,61.4
+Student_174,Female,Bachelor,14,66.8,94.2,77.2
+Student_175,Female,High School,6,57.4,94.2,64.8
+Student_176,Female,Bachelor,13,63.4,85.8,45.4
+Student_177,Female,Bachelor,12,63.4,45.6,56.6
+Student_178,Male,Bachelor,17,77,80.6,97
+Student_179,Male,Master,11,76.8,75.6,56
+Student_180,Male,High School,5,93,66.2,80.2
+Student_181,Female,Bachelor,6,73,78.2,80.4
+Student_182,Male,Master,22,80,81.8,69.8
+Student_183,Female,Bachelor,5,62.2,96,77.2
+Student_184,Female,Bachelor,20,59.4,66.6,67.6
+Student_185,Female,High School,19,59.6,88.4,90.6
+Student_186,Female,High School,7,90.4,76.6,57
+Student_187,Female,High School,20,79.8,92.8,100
+Student_188,Male,Bachelor,4,91.4,73.2,78.8
+Student_189,Male,Master,9,77.2,58.8,99.2
+Student_190,Male,Bachelor,21,54.8,62.4,99.2
+Student_191,Female,Bachelor,14,68.4,59.4,82.8
+Student_192,Male,Master,23,75.6,67.4,42.6
+Student_193,Male,Bachelor,24,78.6,78,82.6
+Student_194,Male,Master,13,75.8,83.8,77.6
+Student_195,Male,Bachelor,22,49,92,69.2
+Student_196,Female,High School,17,62.8,77,80.2
+Student_197,Male,Bachelor,4,89.6,78,86.8
+Student_198,Female,Bachelor,16,59,65.2,96
+Student_199,Male,Bachelor,12,87,53.4,71.6
+Student_200,Female,Bachelor,6,75.2,53.6,93.4
+Student_201,Male,Bachelor,13,58.6,84.4,77.6
+Student_202,Male,Master,22,79,87.8,97.8
+Student_203,Female,Master,2,54.2,94.4,75.2
+Student_204,Male,Master,12,64.2,69.2,57.8
+Student_205,Female,Bachelor,24,91.8,58.8,65.4
+Student_206,Male,High School,10,74.2,63.4,62.4
+Student_207,Male,High School,2,94.4,69.6,67.4
+Student_208,Female,Bachelor,24,87.2,70.6,81
+Student_209,Male,Master,16,74.4,72.8,78.8
+Student_210,Female,High School,3,85.6,51,88
+Student_211,Female,High School,12,77.6,70.8,74
+Student_212,Female,High School,25,53.2,94.6,78
+Student_213,Female,Bachelor,15,78.8,53,68.2
+Student_214,Female,Bachelor,2,75.6,95,53.4
+Student_215,Female,High School,23,59.8,74.2,53.6
+Student_216,Female,Bachelor,21,69.4,58.6,80.4
+Student_217,Female,Master,11,96.6,71,89.8
+Student_218,Male,Master,22,54.6,52.2,89.4
+Student_219,Male,Bachelor,6,72.6,56.2,66.2
+Student_220,Female,Bachelor,12,89.2,95.8,58.8
+Student_221,Male,Bachelor,15,67,80.2,64.4
+Student_222,Male,High School,6,51.6,92.4,67.6
+Student_223,Female,Bachelor,6,93.2,81.2,66.6
+Student_224,Male,Master,17,82.8,79.4,68.8
+Student_225,Male,High School,2,53.4,79.6,52
+Student_226,Male,Bachelor,15,62.6,73.6,72.8
+Student_227,Female,Master,15,93,59.2,92.6
+Student_228,Female,Master,4,72,73.8,51
+Student_229,Male,Bachelor,25,56.6,72.6,93
+Student_230,Female,Bachelor,16,82.4,51.8,76.2
+Student_231,Male,Master,13,84.8,76.4,62.6
+Student_232,Male,Master,21,69.8,96.6,68
+Student_233,Male,Master,18,90.6,55.6,55.2
+Student_234,Female,Master,20,61.8,73.6,55.2
+Student_235,Male,Bachelor,13,74.6,90.2,92.8
+Student_236,Male,Master,13,71,64,75.2
+Student_237,Female,High School,25,52.8,47.6,91.4
+Student_238,Male,Master,4,62.8,97.2,79.2
+Student_239,Male,Master,13,80.6,88.8,84.4
+Student_240,Female,High School,17,52.6,56.4,84.6
+Student_241,Female,Bachelor,11,75,59.6,77.6
+Student_242,Female,Master,19,75,85,59.2
+Student_243,Male,High School,9,56.2,72,71.8
+Student_244,Female,Bachelor,13,99,62.6,76.6
+Student_245,Male,Master,10,75.8,83.4,55.8
+Student_246,Female,High School,15,79.4,84.8,80.4
+Student_247,Male,Bachelor,11,93.8,61.8,97.6
+Student_248,Female,Master,13,83.4,93.6,52.6
+Student_249,Female,High School,9,86,65.8,74.6
+Student_250,Female,Master,17,68.4,71.6,85.2
+Student_251,Male,Bachelor,3,78.4,78,59
+Student_252,Male,High School,21,86,58.8,47.6
+Student_253,Male,Bachelor,20,58.2,68.8,96.2
+Student_254,Female,Bachelor,2,78.4,72.6,83.8
+Student_255,Male,High School,4,77.6,50.6,57.4
+Student_256,Female,Master,20,64.8,80,55.6
+Student_257,Male,Bachelor,24,92.2,70,89
+Student_258,Female,High School,16,60.2,57.2,73
+Student_259,Female,High School,13,75.4,91,66.6
+Student_260,Female,Bachelor,17,76,78.8,79.4
+Student_261,Female,Bachelor,9,75,84.4,86.8
+Student_262,Male,Master,18,64.8,90.8,59.8
+Student_263,Male,Master,7,79.4,88.4,88.6
+Student_264,Female,High School,4,64.2,92,60.8
+Student_265,Female,Bachelor,10,83.6,75.4,67.6
+Student_266,Female,High School,6,53.4,86.4,78
+Student_267,Male,Bachelor,10,77.8,93,59.8
+Student_268,Female,High School,14,84,60.2,67.8
+Student_269,Female,Master,6,48.6,83.4,76.6
+Student_270,Female,Bachelor,9,49.2,82.6,49.6
+Student_271,Male,High School,24,91,59.8,80
+Student_272,Male,High School,22,87.2,88.2,71
+Student_273,Female,Master,19,69.8,58.2,60.2
+Student_274,Female,Bachelor,14,72.4,78.4,90
+Student_275,Female,Master,9,76.6,82,73.8
+Student_276,Female,Bachelor,17,66.2,79,83.4
+Student_277,Male,Bachelor,24,82.4,66.8,87.8
+Student_278,Male,Bachelor,6,66.6,72.4,84.4
+Student_279,Female,High School,21,49.2,66.2,96
+Student_280,Female,High School,19,64,90.6,77.4
+Student_281,Male,High School,3,60.8,56.4,91.4
+Student_282,Female,Bachelor,11,69,70.8,95
+Student_283,Male,Master,6,67.2,85,55.2
+Student_284,Male,High School,13,67.8,54.6,86.4
+Student_285,Male,Bachelor,19,64.2,55.2,82.6
+Student_286,Female,Bachelor,24,84.2,92,64.8
+Student_287,Female,Master,25,81.6,84.2,92.2
+Student_288,Male,Bachelor,24,92.2,65.8,57.2
+Student_289,Male,High School,23,77.2,66.4,79.4
+Student_290,Female,Bachelor,18,74.2,70.6,84
+Student_291,Female,Bachelor,15,80.6,62.2,82
+Student_292,Male,Master,2,97.2,88.4,66.8
+Student_293,Female,High School,18,60.8,58.6,73.4
+Student_294,Male,High School,5,85.8,49.2,64.2
+Student_295,Female,High School,4,84.2,65,86.6
+Student_296,Male,Master,6,52.4,62.8,55.4
+Student_297,Female,High School,3,63.8,63,67.8
+Student_298,Female,Bachelor,19,68.8,67.2,84
+Student_299,Male,Bachelor,24,69.4,66.8,54.6
+Student_300,Female,Master,15,85.2,64.2,55.2
+Student_301,Male,High School,9,95.2,88.2,89
+Student_302,Female,Master,21,94,81.6,84.2
+Student_303,Female,Master,16,97.2,85.2,69.8
+Student_304,Female,Bachelor,24,88.4,83.2,70.4
+Student_305,Male,Bachelor,23,76.4,77.2,73.6
+Student_306,Male,High School,6,75,86.6,67.2
+Student_307,Female,High School,5,51.6,89.2,86.4
+Student_308,Female,Bachelor,3,76.4,56.8,62.6
+Student_309,Male,High School,8,57,82.8,45.2
+Student_310,Male,Master,17,56.2,86.2,62
+Student_311,Female,Bachelor,23,59.8,60.4,66.8
+Student_312,Female,Master,11,45.4,55.8,63
+Student_313,Female,Master,23,82.2,61.8,63.2
+Student_314,Male,High School,13,97.2,72.4,67.8
+Student_315,Female,Master,23,84,93.2,62.2
+Student_316,Female,High School,18,57.2,95.2,87.2
+Student_317,Male,Bachelor,16,91.8,100,83.6
+Student_318,Female,Master,12,81.8,100,85.2
+Student_319,Male,High School,23,91.2,82.4,85.2
+Student_320,Female,High School,7,91.4,78.4,75.2
+Student_321,Male,High School,9,60.8,77,86.6
+Student_322,Male,Bachelor,3,49,51.6,87.2
+Student_323,Male,Master,24,58.4,77.4,59.8
+Student_324,Male,Master,10,60.4,55,77.8
+Student_325,Male,High School,5,85.6,55.2,81.2
+Student_326,Male,High School,9,85.4,67.8,60.4
+Student_327,Female,High School,25,68.8,42.4,51.8
+Student_328,Female,High School,3,90.4,83.2,66.8
+Student_329,Female,High School,18,66.4,91.2,67.4
+Student_330,Male,Bachelor,22,97.4,78,98.2
+Student_331,Female,Master,3,77.4,50.2,90.2
+Student_332,Male,High School,10,81.8,87.8,100
+Student_333,Male,Master,3,76.6,84.8,100
+Student_334,Female,High School,11,88.4,93.2,86.4
+Student_335,Female,High School,9,56.6,90.4,75.4
+Student_336,Male,Master,16,57.2,55.8,76
+Student_337,Male,Master,22,53.4,47,56.6
+Student_338,Female,Master,10,95.2,59.4,82.4
+Student_339,Female,Bachelor,20,73,63.4,57
+Student_340,Male,Bachelor,23,51,82.6,52.2
+Student_341,Male,Bachelor,14,62.2,84.4,68.8
+Student_342,Male,Bachelor,10,92,64.8,41.4
+Student_343,Female,Master,13,48.4,96.4,88.2
+Student_344,Male,High School,3,81.4,65.4,94.2
+Student_345,Female,Master,6,87.6,92.4,76
+Student_346,Male,High School,6,61.4,78.4,50.2
+Student_347,Female,Bachelor,21,63,88.8,83.8
+Student_348,Male,High School,2,63.4,82.6,84.8
+Student_349,Female,High School,19,63.8,91.4,93.2
+Student_350,Male,High School,16,64.2,62.6,88.4
+Student_351,Female,Master,7,81.8,49.2,50.8
+Student_352,Male,Master,10,97.6,46.4,43
+Student_353,Female,Master,18,73,100,54.4
+Student_354,Male,High School,10,81,77,63.4
+Student_355,Male,High School,9,94.4,47,83.6
+Student_356,Female,High School,25,71.2,64.2,82.4
+Student_357,Male,Master,2,63,88,67.8
+Student_358,Female,High School,22,74.4,43.4,95.4
+Student_359,Male,High School,25,55.4,82.4,65.4
+Student_360,Male,High School,11,60.8,94.6,92.4
+Student_361,Male,High School,7,53.8,65.4,74.4
+Student_362,Male,High School,25,84.8,55,89.8
+Student_363,Male,Bachelor,21,51.6,62.4,82.6
+Student_364,Female,Bachelor,20,82.2,63.8,95.4
+Student_365,Male,Master,17,73.8,66.2,67.6
+Student_366,Female,Bachelor,24,70.6,75.8,51.2
+Student_367,Female,Master,7,71,100,41.4
+Student_368,Male,Master,14,90.4,72,100
+Student_369,Female,High School,13,66,81,73
+Student_370,Female,High School,4,62.2,86.4,47
+Student_371,Male,Bachelor,23,88,76.2,67.2
+Student_372,Male,High School,9,53.6,70,89
+Student_373,Male,Bachelor,17,83.6,81.4,39.4
+Student_374,Female,Master,10,89,51.4,80.4
+Student_375,Male,High School,20,68.8,64.8,96.6
+Student_376,Male,Master,14,60.6,55.8,61.4
+Student_377,Female,Bachelor,21,90,91.8,50
+Student_378,Female,High School,24,85.8,56.6,60.4
+Student_379,Male,High School,13,81,87.2,68.8
+Student_380,Male,Bachelor,8,85.6,76.8,61.2
+Student_381,Female,Master,8,97.2,62.6,70.8
+Student_382,Female,Master,22,66.6,66,100
+Student_383,Male,High School,12,81.2,89.4,71
+Student_384,Female,Bachelor,12,63.4,60,78
+Student_385,Female,Bachelor,15,48.2,69.2,91.4
+Student_386,Male,Bachelor,9,95.4,85,73.2
+Student_387,Male,Master,11,62.2,52.6,68
+Student_388,Male,Master,17,83.6,91.6,77.4
+Student_389,Male,Bachelor,3,66,85,47.4
+Student_390,Female,High School,5,76,73.8,68.8
+Student_391,Male,Master,23,80.2,56.6,53.8
+Student_392,Female,High School,4,81.8,98,92.8
+Student_393,Female,Bachelor,4,87.2,81.8,58.6
+Student_394,Male,Bachelor,25,73.4,88,88.2
+Student_395,Male,High School,11,61.4,88.6,78.8
+Student_396,Male,High School,17,72.4,94.2,67.6
+Student_397,Male,Bachelor,18,94.6,60.6,63
+Student_398,Male,Master,15,62.6,89.2,86.4
+Student_399,Male,Bachelor,15,73.6,58.4,64
+Student_400,Male,Bachelor,3,74,44.2,72.2
+Student_401,Female,Master,12,64.2,96.4,85
+Student_402,Female,Bachelor,8,67.8,58.2,54.6
+Student_403,Female,High School,9,82.6,82.6,92.6
+Student_404,Female,High School,11,58.4,58,83
+Student_405,Female,Bachelor,9,58,75,77.8
+Student_406,Female,Bachelor,15,89.4,79.2,57.6
+Student_407,Male,High School,19,55.2,81.8,97
+Student_408,Male,Bachelor,22,58.2,85.2,85.8
+Student_409,Male,Bachelor,12,99,75.4,93
+Student_410,Male,High School,5,59.8,53.4,90.6
+Student_411,Female,Master,19,74.6,75.4,93.2
+Student_412,Female,High School,13,79.4,88.6,62.6
+Student_413,Female,Master,13,85,70.6,90.2
+Student_414,Female,Bachelor,7,78,72.6,55.4
+Student_415,Male,High School,22,49.4,79,40.2
+Student_416,Female,Master,13,77.6,64.2,92.4
+Student_417,Female,Bachelor,6,63.4,73.8,62.2
+Student_418,Male,High School,18,57.2,79.6,82.6

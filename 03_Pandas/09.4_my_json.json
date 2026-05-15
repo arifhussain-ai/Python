@@ -1,0 +1,5 @@
+[
+  {"Id":1, "name": "Alice", "address":{"city": "Delhi","zipcode": "1100001"}},
+  {"Id":2, "name": "Bob", "address":{"city": "Mumbai","zipcode": "4000001"}}
+
+]

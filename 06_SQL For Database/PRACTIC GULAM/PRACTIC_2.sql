@@ -1,0 +1,205 @@
+-- https://www.geeksforgeeks.org/sql/sql-exercises/
+
+-- CREATE DATABASE practice_google;
+USE practice_google;
+
+-- -- CREATE SALES TABLE
+-- CREATE TABLE products(
+-- product_id INT PRIMARY KEY,
+-- product_name VARCHAR(50),
+-- category VARCHAR(50),
+-- unit_price DECIMAL(10,2)
+-- );
+
+-- -- CREATE SALES TABLE 
+-- CREATE TABLE sales(
+-- sale_id INT PRIMARY KEY,
+-- product_id INT,
+-- quantity_sold INT,
+-- sale_date DATE,
+-- total_price DECIMAL(10,2),
+-- FOREIGN KEY (product_id) REFERENCES products(product_id)
+-- 	ON UPDATE CASCADE
+-- 	ON DELETE SET NULL
+-- );
+
+-- -- INSERT IN PRODUCTS
+-- INSERT INTO products (product_id, product_name, category, unit_price) VALUES
+-- (101, 'Laptop', 'Electronics', 500.00),
+-- (102, 'Smartphone', 'Electronics', 300.00),
+-- (103, 'Headphones', 'Electronics', 30.00),
+-- (104, 'Keyboard', 'Electronics', 20.00),
+-- (105, 'Mouse', 'Electronics', 15.00);
+
+-- -- INSERT IN SALES
+-- INSERT INTO sales (sale_id, product_id, quantity_sold, sale_date, total_price) VALUES
+-- (1, 101, 5, '2024-01-01', 2500.00),
+-- (2, 102, 3, '2024-01-02', 900.00),
+-- (3, 103, 2, '2024-01-02', 60.00),
+-- (4, 104, 4, '2024-01-03', 80.00),
+-- (5, 105, 6, '2024-01-03', 90.00);
+
+SELECT * FROM products;
+SELECT * FROM sales;
+-- SELECT product_name,unit_price FROM products;
+-- SELECT sale_id,sale_date FROM sales;
+-- SELECT * FROM sales	WHERE total_price > 100;
+-- SELECT * FROM products WHERE category = "Electronics";
+-- SELECT sale_id,total_price FROM sales WHERE sale_date = "2024-01-03";
+-- SELECT product_id,product_name,unit_price FROM products WHERE unit_price > 100;
+-- SELECT SUM(total_price) AS total_revenue FROM sales;
+-- SELECT AVG(unit_price) AS  average_unit_price FROM products;
+-- SELECT SUM(quantity_sold) AS total_quantity_sold FROM sales;
+-- SELECT product_name,unit_price 
+-- FROM products
+-- ORDER BY unit_price DESC
+-- LIMIT 1;
+-- SELECT sale_id, product_id, total_price FROM sales
+-- WHERE quantity_sold > 4;
+-- SELECT product_name,unit_price FROM products
+-- ORDER BY unit_price DESC;
+-- SELECT ROUND(SUM(total_price), 2) AS total_sales
+-- FROM sales;
+-- SELECT AVG(total_price) AS average_total_price FROM sales
+-- SELECT sale_id, DATE_FORMAT(sale_date, '%Y-%m-%d') as formatted_date 
+-- FROM sales;
+-- SELECT SUM(sales.total_price) AS total_revenue FROM sales
+-- JOIN products ON sales.product_id = products.product_id
+-- WHERE products.category = "Electronics";
+-- SELECT product_name,unit_price FROM products
+-- WHERE unit_price BETWEEN 20 AND 600;
+-- SELECT product_name FROM products
+-- ORDER BY category asc;
+-- SELECT sale_date, count(*) AS sale_count FROM sales
+-- GROUP BY sale_date
+-- ORDER BY sale_date;
+
+-- INTERMEDIATE QUESTIONS
+-- SELECT SUM(quantity_sold) AS total_qauntity_sold FROM sales
+-- JOIN products ON products.product_id = sales.product_id
+-- WHERE products.category = "Electronics";
+-- SELECT product_name,quantity_sold *  unit_price AS total_price FROM sales
+-- SELECT product_id, count(*) AS sales_count FROM sales
+-- GROUP BY product_id
+-- ORDER BY sales_count DESC
+-- LIMIT 1;
+-- SELECT product_id,product_name FROM products
+-- WHERE product_id NOT IN (SELECT DISTINCT product_id FROM sales);
+-- SELECT p.category, SUM(s.total_price) AS total_revenueFROM sales s 
+-- JOIN products p ON s.product_id = p.product_id
+-- GROUP BY p.category;
+-- SELECT category FROM products
+-- GROUP BY category
+-- ORDER BY AVG(unit_price) desc
+-- limit 1;
+-- SELECT p.product_name FROM sales s
+-- JOIN products p ON s.product_id = p.product_id
+-- GROUP BY p.product_name
+-- HAVING SUM(s.total_price) > 30;
+-- SELECT DATE_FORMAT(s.sale_date, "%Y-%m") AS month, count(*) AS sale_count
+-- FROM sales s
+-- GROUP BY month;
+-- SELECT s.sale_id,p.product_name,p.unit_price,s.quantity_sold,s.total_price
+-- FROM sales s
+-- JOIN products p ON s.product_id = p.product_id
+-- WHERE p.product_name LIKE "%Smart%";
+-- SELECT AVG(s.quantity_sold) AS average_quantity_sold FROM sales s
+-- JOIN products p ON s.product_id = p.product_id
+-- WHERE p.unit_price > 100;
+-- SELECT p.product_name, SUM(s.total_price) AS total_revenue
+-- FROM sales s
+-- JOIN products p ON s.product_id = p.product_id
+-- GROUP BY p.product_name; 
+-- SELECT s.sale_id, p.product_name FROM sales s
+-- JOIN products p ON s.product_id = p.product_id;
+-- SELECT p.category,SUM(s.total_price) AS category_revenue,
+-- (SUM(s.total_price)/(SELECT SUM(total_price)FROM sales)) * 100 AS revenue_percentage
+-- FROM sales s 
+-- JOIN products p ON s.product_id = p.product_id
+-- GROUP BY p.category
+-- ORDER BY revenue_percentage DESC
+-- LIMIT 4;
+-- SELECT p.product_name,SUM(s.total_price) AS total_revenue,
+-- RANK() OVER (ORDER BY SUM(s.total_price) DESC) AS revenue_rank
+-- FROM sales s
+-- JOIN products p ON s.product_id = p.product_id
+-- GROUP BY p.product_name;
+-- SELECT p.product_id,p.category,p.product_name,s.sale_date,
+-- SUM(s.total_price) OVER (PARTITION BY p.category ORDER BY s.sale_date) 
+-- AS running_revenue FROM sales s
+-- JOIN products p ON s.product_id = p.product_id;
+-- SELECT product_id,
+-- CASE
+-- WHEN total_price > 200 THEN "HIGH"
+-- WHEN total_price BETWEEN 90 AND 200 THEN "MEDIUM"
+-- ELSE "LOW"
+-- END AS category_sale
+-- FROM sales
+-- SELECT * FROM sales 
+-- WHERE quantity_sold > (SELECT AVG(quantity_sold) FROM sales);
+-- SELECT sale_id, DATEDIFF(NOW(), sale_date) AS days_since_sale
+-- FROM sales
+-- SELECT product_id,
+-- CASE
+-- WHEN dayofweek(sale_date) IN (1,7) THEN "Weekend"
+-- ELSE "Weekday"
+-- END AS day_type
+-- FROM sales
+
+-- ADVANCED QUESTION
+-- SELECT p.product_name,SUM(s.total_price) AS total_revenue,
+-- ROUND((SUM(s.total_price)/ (SELECT SUM(total_price) FROM sales)) * 100,2) AS reveune_percentage
+-- FROM sales s
+-- JOIN products p ON s.product_id = p.product_id
+--  GROUP BY p.product_name
+--  ORDER BY reveune_percentage DESC
+--  LIMIT 3;
+-- CREATE VIEW Total_Sales AS 
+-- SELECT p.product_name,p.category,SUM(s.total_price) AS total_sales_amount
+-- FROM products p
+-- JOIN sales s ON s.product_id = p.product_id
+-- GROUP BY p.product_name,p.category;
+-- SELECT * FROM Total_Sales;
+-- SELECT product_name, category,unit_price FROM products 
+-- WHERE product_id IN(
+-- SELECT product_id FROM sales
+-- GROUP BY product_id
+-- HAVING SUM(quantity_sold) > (SELECT AVG(quantity_sold) FROM sales )
+-- );
+-- ALTER TABLE sales ADD CONSTRAINT fk_product_key
+-- FOREIGN KEY (product_id) REFERENCES products(product_id);
+-- CREATE VIEW Top_Products AS 
+-- SELECT p.product_name, SUM(s.quantity_sold) AS total_quantity_sold
+-- FROM sales s
+-- JOIN products p ON p.product_id = s.product_id
+-- GROUP BY p.product_name
+-- ORDER BY total_quantity_sold DESC
+-- LIMIT 3;
+-- SELECT * FROM Top_Products;
+-- SELECT p.product_name, COUNT(s.sale_id) AS sale_count FROM sales s
+-- LEFT JOIN products p ON p.product_id = s.product_id
+-- GROUP BY p.product_id;
+-- SELECT * FROM sales 
+-- WHERE total_price > (SELECT AVG(total_price) FROM sales);
+-- ALTER TABLE sales
+-- ADD CONSTRAINT chk_quantity_sold CHECK (quantity_sold > 0);
+-- SELECT * FROM sales;
+-- CREATE VIEW Product_Sales_Info AS
+-- SELECT p.product_id,p.product_name,p.category,p.unit_price,COUNT(s.sale_id) AS total_sales
+-- FROM products p
+-- LEFT JOIN sales s ON p.product_id = s.product_id
+-- GROUP BY p.product_id,p.product_name,p.category,p.unit_price;
+-- SELECT * FROM Product_Sales_Info;
+-- DELIMITER //
+-- CREATE PROCEDURE Update_Unit_Price(IN p_product_id INT, IN p_new_price DECIMAL(10,2))
+-- BEGIN
+-- UPDATE products
+-- SET unit_price = p_new_price
+-- WHERE product_id = p_product_id;
+-- END//
+-- DELIMITER ;	
+-- CALL Update_Unit_Price(101,550.00);
+-- SELECT p.category,SUM(s.total_price) AS total_revenue FROM sales s
+-- JOIN products p ON p.product_id = s.product_id
+-- WHERE YEAR(s.sale_date) = "2024"
+GROUP BY p.category;
